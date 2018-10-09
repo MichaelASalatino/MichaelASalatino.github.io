@@ -8,7 +8,7 @@ body {
 }
 
 header{
-    position: relative;
+    position: fixed;
     top: 20px;
     left: 20px;
 }
@@ -19,7 +19,7 @@ h1{
 }
 
 footer{
-    position: absolute;
+    position: fixed;
     bottom: 30px;
     right: 20px;
 }
@@ -35,4 +35,26 @@ a{
 
 a:hover{
     color:aqua;
+}
+
+
+
+
+section{
+    height: 100vh;
+    background-color: blue;
+    background-image: url(michael-1.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.mike-2 {
+    background-image: url(michael-2.jpeg);
+}
+
+section.mike-3 {
+    background-image: url(michael-3.jpeg);
+}
+section.mike-4 {
+    background-image: url(michael-4.jpeg);
 }
