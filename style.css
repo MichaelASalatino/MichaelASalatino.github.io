@@ -58,3 +58,19 @@ section.mike-3 {
 section.mike-4 {
     background-image: url(michael-4.jpeg);
 }
+
+
+
+@media (max-width: 600px) {
+    header {
+        top:10px;
+    }
+    
+    footer {
+        bottom: 10px;
+        left: 10px
+    }
+    section {
+        background-attachment: scroll;
+    }
+}
