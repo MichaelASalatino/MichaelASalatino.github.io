@@ -1,14 +1,14 @@
-<style>
+
 @import url('https://fonts.googleapis.com/css?family=Lora');
-</style>
+
 
 body {
     font-family:"lora";
-    font-size: 10px;
+    font-size: 18px;
     line-height: 1.5;
 
-    width:640px;
-    margin: 40px, auto;
+    width: 640px;
+    margin: 40px auto;
 }
 
 nav {
@@ -23,8 +23,7 @@ nav a {
     border-bottom: 2px sold #f05d54;
 }
 
-nav a hover {
+nav a:hover {
     color: #5000ff;
     border-bottom: 2px sold #ffffff;
-}
 }
