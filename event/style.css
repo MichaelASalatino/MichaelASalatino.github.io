@@ -1,62 +1,43 @@
-
-@import url('https://fonts.googleapis.com/css?family=Lora');
-
+@import url('https://fonts.googleapis.com/css?family=Arimo:400,700');
 
 body {
-    font-family:"lora";
-    font-size: 18px;
+    font-family: 'Arimo';
+    font-size: 15px;
     line-height: 1.5;
-
-    width: 640px;
-    margin: 40px auto;
+    color: #48353a;
+    text-align: left;
+    
 }
 
-nav {
-    background-color: #f05d54;
-    padding: 20px 40px 20px 40px;
+h1 {
+    font-size: 40px;
+    color: white;
 }
 
-nav a {
-    color:#ffffff;
-    text-decoration: none;
-    margin: 0px 15px 0px 0px;
-    border-bottom: 2px sold #f05d54;
-}
-
-nav a:hover {
-    color: #5000ff;
-    border-bottom: 2px sold #ffffff;
-}
-
-section {
-    background-color: #5000ff;
-    padding: 40px;
-    color: #ffffff
-}
-
-section.fullbleed {
-    padding: 0;
-}
-
-section.fullbleed img {
-    width: 100%
-}
-
-h1, h2 {
-    font-size: 36px;
-    line-height: 1.3;
+section.hero h1 {
+    margin: 0 0 0 0;
 }
 
 h2 {
-    font-style: italic;
-    margin: 20px 0px 20px 0pxs
+    font-size: 30px;
+    padding-left: 20px;
 }
 
+h3 {
+  font-size: 20px;
+    max-width: 40%;
+    line-height: 1;
+    padding-left: 20px;
+}
 
-@media (max-width: 700px){
-    body {
-        font-size: 16px;
-        width: auto;
-        margin: 0;s
-    }
+p {
+    padding-left: 20px;
+    padding-top: 40px;
+    max-width: 40%;
+}
+
+section.hero {
+    background: url(maxresdefault.jpg);
+    padding: 300px 20px 300px 20px;
+    
 }
