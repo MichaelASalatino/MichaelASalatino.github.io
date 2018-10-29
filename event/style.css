@@ -40,6 +40,18 @@ p {
 section.hero {
     background: url(maxresdefault.jpg);
     padding: 350px 20px 350px 20px;
-    
+}
+
+section.split {
+    overflow: hidden;
+}
+
+Section.split1 div {
+    background-color: beige;
+}
+
+section.split2 img{
+    width: 50%;
+    border-radius: 
 }
 
