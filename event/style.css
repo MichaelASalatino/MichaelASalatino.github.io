@@ -1,0 +1,46 @@
+<<<<<<< HEAD
+=======
+@import url('https://fonts.googleapis.com/css?family=Arimo:400,700');
+
+body {
+    font-family: 'Arimo';
+    font-size: 15px;
+    line-height: 1.5;
+    color: #48353a;
+    text-align: left;
+    
+}
+
+h1 {
+    font-size: 40px;
+    color: white;
+}
+
+section.hero h1 {
+    margin: 0 0 0 0;
+}
+
+h2 {
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+h3 {
+  font-size: 20px;
+    max-width: 40%;
+    line-height: 1;
+    padding-left: 20px;
+}
+
+p {
+    padding-left: 20px;
+    padding-top: 40px;
+    max-width: 40%;
+}
+
+section.hero {
+    background: url(maxresdefault.jpg);
+    padding: 300px 20px 300px 20px;
+    
+}
+>>>>>>> 5d1113d080b3951317c3ea1942e30f701506ed98
