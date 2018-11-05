@@ -7,12 +7,44 @@ body {
     line-height: 1.5;
     color: #48353a;
     text-align: left;
-    background-color: #e8e5e5;
+<<<<<<< HEAD
+    
+=======
+    background-color: #242526;
+}
+
+header img {
+    float: right;
+    max-width: 8%;
+    padding-right: 25px
+}
+header {
+    padding: 10px 20px 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    
+}
+
+header nav {
+    float: right;
+    padding-right: 25px;
+    padding-top: 6px;
+}
+
+header nav a {
+    margin: 0 0 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px
+>>>>>>> 7eb7bb59da7273369bbc20fd3d07a4173ad28b0c
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 45px;
     color: white;
+    padding-left: 50px;
 }
 
 section.hero h1 {
@@ -21,37 +53,67 @@ section.hero h1 {
 
 h2 {
     font-size: 30px;
-    padding-left: 20px;
+    padding-left: 40px;
+    padding-top: 59px;
+    color:white;
+    text-align: right;
+    padding-right: 40px;
 }
 
 h3 {
-  font-size: 20px;
-    max-width: 40%;
+    font-size: 20px;
     line-height: 1;
-    padding-left: 20px;
+    padding-left: 45px;
+    color:white;
+    text-decoration:underline;
+    padding-bottom: 40px;
+    text-align: right;
+    padding-right: 40px;
+    
+    
 }
 
 p {
-    padding-left: 20px;
-    padding-top: 40px;
-    max-width: 40%;
+    padding-left: 45px;
+    padding-top: 5px;
+    color:white;
+    text-align: right;
+    font-size:15px;
+    padding-right: 40px;
+        
 }
 
 section.hero {
     background: url(maxresdefault.jpg);
     padding: 350px 20px 350px 20px;
+    border: none;
 }
 
 section.split {
+    max-width: 1100px;
     overflow: hidden;
+    margin: auto;
 }
 
-Section.split1 div {
-    background-color: beige;
-}
-
-section.split2 img{
+section.split div {
+    float:left ;
     width: 50%;
-    border-radius: 
+    margin: auto;
 }
+
+section .split1 div {
+   
+}
+
+section .split2 img{
+    max-width: 100%;
+    padding-top: 65px;
+}
+
+footer {
+    padding-top: 200px;
+    background-color: #0db743;
+    margin-top: 150px;
+}
+
 
