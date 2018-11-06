@@ -1,145 +1,99 @@
-@import url('https://fonts.googleapis.com/css?family=David+Libre:400,700');
-
 * {
-  box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-    font-family: 'David Libre';
-    font-size: 18px;
+    font-family: helvetica;
+    font-size: 24px;
     line-height: 1.5;
-    color: #48353a;
-    text-align: center; 
+    background-color: black;
+    color:white;
 }
 
 header {
-    padding: 10px 20px 10px 20px;
+    width: 100%;
+    overflow: hidden;
     position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background-color: rgba(255,255,255,.75);
+    padding: 20px;
+    overflow: hidden;
+    top: 0px;
+    z-index: 1;
 }
 
-header img{
-    float:left;
+header h1 {
+    float: left;
 }
 
-header nav{
-    float:right;
+header nav {
+    float: right;
 }
 
-header nav a{
-    padding: 5px;
-    margin: 0 0 0 10px;
-    color: #48353a;
+header nav a {
+    color: white;
     text-decoration: none;
+    margin-right: 10px;
+    border-bottom: 2px solid white;
+    transition: border-bottom 0.5;
 }
 
-header nav a:hover{
-    border-bottom: 2px solid #48353a
+header nav a:hover {
+    border-bottom: 2px solid pink;
 }
 
-section.hero {
-    padding: 250px 0px 200px 0px;
+header nav a.selected {
+    border-bottom: 2px solid #666666
 }
 
-section.hero h1{
-    font-size: 64px;
-    font-weight: 700;
-    line-height:  1.2;
-    
-    max-width: 500px;
-    margin: 0 auto 20px auto;
+section {
+    text-align: center;
 }
 
-section.hero p {
-    max-width: 400px;
-    margin: 0 auto;
-}
-
-a.button {
+div {
+    width: 300px;
+    margin: 20px;
+    position: relative;
     display: inline-block;
-    margin:20px 0 0 0;
-    border: 2px solid #eeae9f;
-    border-radius: 40px;
-    padding: 10px 20px;
-    color: ##eeae9f;
-    text-decoration: none;
-    font-weight: 700;
 }
 
-a.button:hover {
-    background-color: #eeae9f;
-    color: #ffffff;
+div h2 {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 250px;
+    font size:36px;
+    line-height: 1.2;
+    text-align: left;
+    opacity: 0;
+    transition: opacity 1s;
 }
 
-section.Flowers {
-    overflow: hidden;
+div:hover {
+    opacity: 1;
 }
 
-Section.Flowers img {
-    float: left;
-    width: 33.33%;
+div img{
+    opacity: 1;
+    transition: opacity 1s;
+    max-width: 100%
 }
 
-section.quotes {
-    overflow: hidden;
-}
-
-section.quotes div {
-    float: left;
-    width: 50%;
-    padding: 40px 120px 60px;
-}
-
-section.quotes div.quote1 {
-    background-color: #f7f1ee;
-}
-
-section.quotes img {
-    width: 75px;
-    border-radius: 50px;
-}
-
-section.quotes h2 {
-    font-weight: 700;
-    font-size: 24px;
-    padding: 20px 0;
-}
-
-section.fullBleed img {
-    width: 100%;
-}
-
-section.brands {
-    background-color: #eeae9f;
-    color: #ffffff;
-    padding: 40px 0px;
-}
-
-section.brand h3 {
-    font-weight: 700;
-    margin-bottom: 20px;
-}
-
-section.brand img {
-    margin: 0 10px 0 10px;
+div:hover img {
+    opacity: 0.5;
 }
 
 footer {
-    background-color: black;
+    width: 100%;
     overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    left: 0;
     padding: 20px;
 }
 
-footer img {
-    float: left;
+footer nav {
+    float: right;
 }
 
-footer p {
-     float:right;
-    color: white;
+footer img {
+    width: 24px;
 }
