@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+
+
+
+img {
+    max-width: 100%
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height:1.3;
+    background-color: #FFFFFF;
+    background-image: url(back%20logo.2-01.png);
+    background-size: cover;
+    position: absolute;
+    text-align: center;
+}
+
+header {
+    background-color: ;
+    color: white;
+    border-top: 4px solid #FFFFFF;
+    font-size: 10px;
+    
+}
+
+nav {
+   margin: 30px 0px 20px 20px;
+    text-decoration: none;
+    font-size: 15px;
+    
+   
+}
+
+nav a{
+    margin-right: 10px;
+    text-decoration: none;
+    color:#D42027;
+}
+
+
+
+div.wrap {
+    max-width: 960px;
+    margin: 0 auto 0 auto;
+    overflow: hidden;
+}
+
+
+header h1 {
+    float:left;
+    width: 75px;
+}
+
+header nav {
+    float:right;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 
+    
+}
+
+section.hero {
+    background-image: url(image_1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: ;
+    padding: 90px 0 100px 0;
+}
+
+section.hero h2 {
+    font-size: 32px;
+    font-weight: 700px;
+    max-width: 480px;
+}
+
+section.hero h3 {
+    font-size: 22px;
+    font-weight: 400px;
+    margin: 20px 0 0 0;
+}
+
+
+}
+
+div.product {
+    background-color: ;
+    width:320px;
+    float:left;
+    position: relative;
+    align-content: center;
+    
+}
+
+div.product h4 {
+    position: absolute;
+    top:20px;
+    left:20px;
+    opacity:0;
+    transition: opacity 1s;
+}
+
+
+
+
+@media (max-width:1000px) {
+    div.wrap {
+        width:640px;
+    }
+}
+
+@media (max-width:680px) {
+    div.wrap {
+        width:auto;
+        margin: 0 20px 0 20px;
+    }
+}
+
+div.product {
+    width: 80%;
+    align-content: center;
+    text-align: center;
+}
+
+
+div.product img {
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+}
