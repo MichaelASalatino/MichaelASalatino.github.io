@@ -20,7 +20,12 @@ header {
     position: fixed;
     width: 100%;
     top: 0;
+<<<<<<< HEAD
     left: 0; 
+=======
+    left: 0;
+    
+>>>>>>> b8a87fee81a9ca85c88db5eef6148cc6ad38b62c
 }
 
 header nav {
@@ -33,7 +38,11 @@ header nav a {
     margin: 0 0 0 10px;
     color: white;
     text-decoration: none;
+<<<<<<< HEAD
     font-size: 15px;
+=======
+    font-size: 15px
+>>>>>>> b8a87fee81a9ca85c88db5eef6148cc6ad38b62c
 }
 
 h1 {
@@ -64,6 +73,11 @@ h3 {
     padding-bottom: 40px;
     text-align: right;
     padding-right: 40px;
+<<<<<<< HEAD
+=======
+    
+    
+>>>>>>> b8a87fee81a9ca85c88db5eef6148cc6ad38b62c
 }
 
 p {
@@ -86,6 +100,7 @@ section.split {
     max-width: 1100px;
     overflow: hidden;
     margin: auto;
+<<<<<<< HEAD
 }
 
 section.split div {
@@ -146,3 +161,29 @@ p.pinfo {
     font-size:15px;
     padding-right: 40px;
 }
+=======
+}
+
+section.split div {
+    float:left ;
+    width: 50%;
+    margin: auto;
+}
+
+section .split1 div {
+   
+}
+
+section .split2 img{
+    max-width: 100%;
+    padding-top: 65px;
+}
+
+footer {
+    padding-top: 200px;
+    background-color: #0db743;
+    margin-top: 150px;
+}
+
+
+>>>>>>> b8a87fee81a9ca85c88db5eef6148cc6ad38b62c
