@@ -15,7 +15,7 @@ body {
     font-size: 20px;
     line-height:1.3;
     background-color: #FFFFFF;
-    background-image: url(back%20logo.2-01.png);
+    background-image: url(1-01.png);
     background-size: cover;
     position: absolute;
     text-align: center;
@@ -71,6 +71,7 @@ section.hero {
     background-position: center;
     background-color: ;
     padding: 90px 0 100px 0;
+    color: #D42027;
 }
 
 section.hero h2 {
@@ -94,6 +95,7 @@ div.product {
     float:left;
     position: relative;
     align-content: center;
+    margin: auto;
     
 }
 
@@ -105,6 +107,10 @@ div.product h4 {
     transition: opacity 1s;
 }
 
+div.product p {
+    padding-bottom: 30px;
+    padding-top:10px;
+}
 
 
 
@@ -125,6 +131,7 @@ div.product {
     width: 80%;
     align-content: center;
     text-align: center;
+    margin:auto;
 }
 
 
@@ -133,4 +140,13 @@ div.product img {
     align-content: center;
     text-align: center;
     margin: auto;
+}
+section.about {
+    text-align: left;
+    padding-bottom: 40px;
+    padding-top: 50px;
+    padding-right: 40px;
+    padding-left:40px;
+    margin-top: 35px;
+    background-color: white;
 }
